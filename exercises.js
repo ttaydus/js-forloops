@@ -30,7 +30,6 @@ for(var i = 0; i<topFive.length; i++){
 }
 
 
-
 /* 3) Dead Presidents
 Declare a variable named `presidents` and assign it to an array containing the following Presidents: Washington, Adams, Jefferson, Madison and Monroe.
  
@@ -50,6 +49,13 @@ This function will iterate through the person parameter and console.log the foll
 
 "President person was a great leader."
 */
+
+var presidents = ['Washington', 'Adams', 'Jefferson', 'Madison', 'Monroe'];
+
+for(var i = 0; i<presidents.length; i++){
+   console.log('The value at ' + i + ' is ' + presidents[i] + '.');
+}
+
 
 
 /* 4) Line Number
