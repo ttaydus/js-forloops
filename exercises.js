@@ -207,6 +207,20 @@ Declare a variable named `topQuote` and assign it to a String value of your favo
 Write a function that will iterate through the string value and return the longest word in that quote. Console.log your result.
 */
 
+var topQuote = 'The only good race pace is suicide pace and today feels like a good day to die!';
+
+var quoteSplit = topQuote.split(' ');
+var longestWord = '';
+
+function findLongestWord(anyString){
+   for(var i = 0; i<anyString.length; i++){
+      if(anyString[i].length > longestWord.length)
+      longestWord = anyString[i];
+   }
+   return longestWord;
+}
+
+console.log(findLongestWord(quoteSplit));
 
 
 /* 12) Puppet Master
