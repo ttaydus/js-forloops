@@ -98,7 +98,6 @@ for( var i = 0; i<100; i++){
 console.log(evenNumArr);
 
 
-
 /* 6) Up the Odds
 Declare a variable named `oddSum` and assign it to the Number value 0.
 
@@ -106,6 +105,16 @@ Write a for-loop that will sum up odd numbers to the `oddSum` variable. We want 
 Console.log your results.
 */
   
+var oddSum = 0
+
+for(var i = 1; i<100; i++){
+   if(i%2 === 1){
+      oddSum += i;
+   }
+}
+
+console.log(oddSum);
+
 
 /* 7) Oops There It is
 Declare a variable named `oopsArray` and assign its to the following array: `[ 'turn' , , 'down' , , 'for' , , 'what' ]`.
